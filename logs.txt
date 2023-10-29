@@ -1,0 +1,7 @@
+2023-10-27 15:38:14,352 [INFO]: You: --logchat
+2023-10-27 16:08:02,216 [DEBUG]: message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/davinci/completions
+2023-10-27 16:08:02,216 [DEBUG]: api_version=None data='{"prompt": "how much tokens are you allow to take in?", "max_tokens": 150, "temperature": 0.9}' message='Post details'
+2023-10-27 16:08:02,216 [DEBUG]: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2023-10-27 16:08:02,303 [DEBUG]: Starting new HTTPS connection (1): api.openai.com:443
+2023-10-27 16:08:06,822 [DEBUG]: https://api.openai.com:443 "POST /v1/engines/davinci/completions HTTP/1.1" 200 None
+2023-10-27 16:08:06,823 [DEBUG]: message='OpenAI API response' path=https://api.openai.com/v1/engines/davinci/completions processing_ms=4316 request_id=b31e1d8026cb3ed91a2aef4904d955b0 response_code=200
